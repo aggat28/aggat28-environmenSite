@@ -1,0 +1,24 @@
+body, html{
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+}
+.container{
+    max-width: 1440px;
+    display: block;
+    flex-direction: column;
+}
+.header{
+    width: 100%;
+    background: #1FBD8A;
+    padding: 20px 178px 20px 178px;
+
+}
+.header__logo{
+    position: relative;
+}
+.logoVector{
+    position: absolute;
+    left: 23px;
+    top: 6px;
+}
